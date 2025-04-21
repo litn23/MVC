@@ -4,15 +4,19 @@
 
 ## Innehåll
 
-- [Instruktioner](#Instruktioner)
+- [Instruktioner](#Instruktioner-om-kloning)
 
-## Instruktioner
-echo "# MVC" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git tag -a v1.0.0 -m "Release version 1.0.0"
-git branch -M main
-git remote add origin git@github.com:litn23/MVC.git
-git push -u origin main
-git push origin --tags
+## Instruktioner om kloning
+Steg 1:
+Öppna terminalen, gå in i katalogen du vill att repot ska placeras.
+Sedan skriv "git clone https://github.com/litn23/MVC.git" för att klona.
+
+Steg 2: 
+Sedan behöver du installera composer och npm.
+Det gör du genom och skriva in "composer install" och "npm insall" i terminalen.
+
+Steg 3:
+Du behöver nu bygga sidan genom och skriva in "npm rund build" i terminalen.
+
+Steg 4:
+För och starta hemsidan skriv in "php -S localhost:8888 -t public".
