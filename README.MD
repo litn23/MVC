@@ -1,3 +1,12 @@
+# MVC
+
+![bild](public/images/symfony.png)
+
+## Innehåll
+
+- [Instruktioner](#Instruktioner)
+
+## Instruktioner
 echo "# MVC" >> README.md
 git init
 git add README.md
